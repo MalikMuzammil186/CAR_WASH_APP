@@ -109,7 +109,7 @@ class MapSampleState extends State<MapSample> {
             left: 90,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
+                backgroundColor: Colors.blue,
                 fixedSize: const Size(170, 40),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(6),

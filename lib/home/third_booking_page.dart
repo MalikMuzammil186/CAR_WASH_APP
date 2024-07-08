@@ -287,7 +287,8 @@ class _third_booking_page extends State<third_booking_page> {
                         alignment: Alignment.bottomRight,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.blue,
+                      backgroundColor
+                            : Colors.blue,
                             fixedSize: const Size(110, 40),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(1)),
@@ -307,7 +308,7 @@ class _third_booking_page extends State<third_booking_page> {
                     alignment: Alignment.bottomRight,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.grey,
+                      backgroundColor: Colors.grey,
                         fixedSize: Size(MediaQuery.of(context).size.width, 47),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(1),

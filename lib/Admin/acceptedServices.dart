@@ -69,18 +69,15 @@ class _allAcceptedServices extends State<allAcceptedServices> {
                         child: circularProgress(),
                       ),
                     )
-                  : SliverStaggeredGrid.countBuilder(
-                      crossAxisCount: 1,
-                      staggeredTileBuilder: (c) => const StaggeredTile.fit(1),
-                      itemBuilder: (context, index) {
+                  :SliverAlignedGrid.count( crossAxisCount:1,
+                  itemBuilder: (context, index) {
                         ItemModel model = ItemModel.fromJson(
                             dataSnapshot.data?.docs[index].data()
                                 as Map<String, dynamic>);
                         return sourceInfo(model, context,
                             background: Colors.black);
                       },
-                      itemCount: dataSnapshot.data!.docs.length,
-                    );
+                      itemCount: dataSnapshot.data!.docs.length,);
             },
           ),
         ],
@@ -279,7 +276,7 @@ class _allAcceptedServices extends State<allAcceptedServices> {
                         style: TextStyle(color: Colors.white, fontSize: 12.0),
                       ),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red,
+                        backgroundColor: Colors.red,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(5), // <-- Radius
                         ),

@@ -57,7 +57,7 @@ class Error_Alert_Dialog_Text extends StatelessWidget {
             ),
           ),
           style: ElevatedButton.styleFrom(
-            primary: Colors.red,
+            backgroundColor: Colors.red,
           ),
           onPressed: () {
             print(reason.text.trim().toString());

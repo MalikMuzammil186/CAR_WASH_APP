@@ -289,8 +289,8 @@ class _MyBooking extends State<MyBooking> {
                       if ("${data['serviceRating']}" == "null") ...[
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            onPrimary: Colors.white,
-                            primary: Colors.green,
+                            surfaceTintColor: Colors.white,
+                          backgroundColor: Colors.green,
                           ),
                           child: const Text("Rate Us"),
                           onPressed: () {

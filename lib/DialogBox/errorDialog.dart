@@ -20,7 +20,7 @@ class Error_Alert_Dialog extends StatelessWidget {
             ),
           ),
           style: ElevatedButton.styleFrom(
-            primary: Colors.red,
+            backgroundColor: Colors.red,
           ),
           onPressed: () {
             Navigator.pop(context);

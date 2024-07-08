@@ -83,7 +83,7 @@ class _time_picker extends State<time_picker> {
               alignment: Alignment.bottomRight,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue,
+                 backgroundColor: Colors.blue,
                   fixedSize: Size(MediaQuery.of(context).size.width, 47),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(1),

@@ -53,7 +53,7 @@ class _MySplashScreen extends State<MySplashScreen> {
                 height: 20.0,
               ),
               const Text(
-                "Welcome To washly",
+                "Welcome To   Washing App",
                 style: TextStyle(color: Colors.white, fontSize: 15.0),
                 textDirection: TextDirection.ltr,
               ),
